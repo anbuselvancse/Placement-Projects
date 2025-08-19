@@ -1,0 +1,59 @@
+*body{
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(/image/download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.animal{
+
+    display: flex;
+
+    justify-content:space-around;
+
+}
+
+ 
+
+.animal_image{
+
+    margin-top: 50px;
+
+    margin-left: 10px;
+
+}
+
+ 
+
+.animal_details{
+
+    margin-top:70px ;
+
+}
+
+ 
+
+.animal_video{
+
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+.animal_image audio{
+
+   margin-top: 10px;
+
+   margin-left:-10px;
+
+}
+
+ 
