@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 2, 56);
+    margin: 0 auto;
+    margin-top:150px;;
+    transform:rotate(90deg);
+    transition-duration: 8s;
+}
+.shape:hover{
+    background-color:green;
+    width: 250px;
+    height: 250px;
+    transform:rotate(45deg);
+
+}
