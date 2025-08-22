@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple E-Commerce</title>
+  <link rel="stylesheet" href="/E commerce/style.css" />
+</head>
+<body>
+  <header>
+    <div class="Menu">
+      <img src="/E commerce/image/download (8).jpg"height="25" width="20"></div>
+      <div class="Menu_1"><button>Menu</button></div>
+    <h1>X^3 Mart</h1>
+    <div class="button"><button>Login/Sign Up</button>
+    <button id="cart-button">🛒 Cart (<span id="cart-count">0</span>)</button></div>
+  </header>
+
+  <main>
+    <div class="video">
+        <video autoplay loop muted width="1255">
+          <source src="/E commerce/video/video.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
+    <section class="products">
+      <div class="product 0">
+        <img src="/E commerce/image/1_HtatcyZfK-yiv8quyDxXpg.jpg" alt="iMac Desktop" width="250" height="250">
+        <h3>iMac Desktop</h3>
+        <p>₹134900</p>
+        <button onclick="addToCart('iMac Desktop', 134900)">Add to Cart</button>
+      </div>
+
+      <div class="product 1">
+        <img src="/E commerce/image/download (1).jpg" alt="iphone 17" width="250" height="250">
+        <h3>iphone 17</h3>
+        <p>₹120000</p>
+        <button onclick="addToCart('iphone 17', 120000)">Add to Cart</button>
+      </div>
+
+      <div class="product 2">
+        <img src="/E commerce/image/download (7).jpg" alt="wireless power bank" width="250" height="250">
+        <h3>wireless power bank</h3>
+        <p>₹3850</p>
+        <button onclick="addToCart('wireless power bank', 3850)">Add to Cart</button>
+      </div>
+      <div class="product 3">
+        <img src="/E commerce/image/download.jpg" alt="Airpods"  width="250" height="250">
+        <h3>Airpods</h3>
+        <p>₹3850</p>
+        <button onclick="addToCart('Airpods', 3850)">Add to Cart</button>
+      </div>
+
+      <div class="product 4">
+        <img src="/E commerce/image/download (3).jpg" alt="ipad">
+        <h3>ipad</h3>
+        <p>₹122999</p>
+        <button onclick="addToCart('ipad', 122999)">Add to Cart</button>
+      </div>
+
+      <div class="product 5">
+        <img src="/E commerce/image/download (4).jpg" alt="Mac book laptop">
+        <h3>Mac book laptop</h3>
+        <p>₹159000</p>
+        <button onclick="addToCart('Mac book laptop', 159000)">Add to Cart</button>
+      </div>
+
+      <div class="product 6">
+        <img src="/E commerce/image/download (5).jpg" alt="Apple speaker">
+        <h3>Apple speaker</h3>
+        <p>₹30000</p>
+        <button onclick="addToCart('Apple speaker', 30000)">Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <aside id="cart-sidebar" class="hidden">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p>Total: ₹<span id="cart-total">0</span></p>
+    <button onclick="clearCart()">Clear Cart</button>
+  </aside>
+  <div class="bottom">
+    <p>Copyright © 2025 x^3 Mart Inc.All rights reserved
+    </p>
+   <div class="copy">
+    <p> Privacy Policy Terms of Use  | Sales  | Policy Legal | Site Map .india</p>
+   </div> 
+   
+  </div>
+
+  <script src="/E commerce/index.js"></script>
+</body>
+</html>
